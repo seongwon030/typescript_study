@@ -1,0 +1,11 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "target": "ESNext",
+    "module": "ESNext", // 모듈을 컴파일할 js 버전 
+    "outDir": "dist", // 컴파일 한 js파일 디렉토리 설정
+    "strict": false, // 엄격한 타입검사 
+    "moduleDetection": "force" // 각각의 파일을 어떤 모듈로 감지할 것인가
+}
+}
