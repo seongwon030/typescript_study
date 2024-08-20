@@ -6,6 +6,7 @@
     "module": "ESNext",
     "outDir": "dist",
     "strict": true,
+    "strictNullChecks": false,
     "moduleDetection": "force",
   }
 }
